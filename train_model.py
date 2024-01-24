@@ -11,7 +11,7 @@ import joblib
 
 ### Function to get Wikipedia content
 def get_wikipedia_content(title, lang='en'):
-    user_agent = "New_Assignment_Nlp/1.1 (masudtalukdar.cn@email.com)"  ### Update with your own user agent
+    user_agent = "First_Assignment_Nlp/1.1 (masudtalukdar.cn@email.com)"  ### Update with your own user agent
     wiki_wiki = wikipediaapi.Wikipedia(lang, headers={'User-Agent': user_agent})
     page_py = wiki_wiki.page(title)
 
